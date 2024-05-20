@@ -1,6 +1,9 @@
 1st Q 
-                                                                                                                                                                                                                           ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]     
 ages.sort()
+a = min(ages)
+b = max(ages)
 print(a)
 print(b)
 ages.append(a)
@@ -8,28 +11,21 @@ print(ages)
 ages.append(b)
 print(ages)
 c = len(ages)
-print(c)
 s =(c-1)//2
-print(s)
 median1 = (ages[s] + ages[s+1])/2
 print(median1)
 sum1 = sum(ages)
 print(sum1)
 avg = sum1/c
 print(avg)
-raint(ages)
-a = min(ages)
-b = max(ages)
 range1 = b-a
 print(range1)
 
 
 2nd Q
 dog = dict()
-student["gender"] = "FEMALE"
 dog["name"] = "BROWNIE"
 dog["color"] = "BLACK"
-student["age"] = "22"
 dog["breed"] = "GREAT DANE"
 dog["legs"] = "4"
 dog["age"] = "9"
@@ -56,6 +52,7 @@ print(student.keys())
 print(student.values())
 
 3rd Q
+
 brothers = ("SUJITH", "VARSHIK", "VAMSHI");
 sisters = ("SATVIKA", "SRUTHI", "VANITHA");
 siblings = sisters + brothers;
@@ -66,6 +63,7 @@ family_members = siblings + ("VIKAS", "KAVYA");
 print(family_members);
 
 4th Q
+
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'} 
 print(" length:",len(it_companies))  
 it_companies.update(['twitter'])
@@ -88,11 +86,12 @@ X.clear()
 print(X)
 age_list = [22, 19, 24, 25, 26, 24, 25, 24]
 print("Age",len(age_list))
-AGE_SET= set(age_in_list) 
+AGE_SET= set(age_list) 
 print("Age",AGE_SET) 
 print("Age",len(AGE_SET))
 
 5th Q
+
 r = 30
 pi = 3.14
 area_of_circle = pi*r**2  
@@ -104,7 +103,6 @@ user_input=float(input())
 raaadius=20
 area_of_circle=pi*raaadius**2
 print(area_of_circle)
-
 
 6thQ
 sentence="I am a teacher and I love to inspire and teach people"
@@ -123,11 +121,10 @@ print("The area of a circle with a radius %s is %s meters square." %(radius,area
 9th Q
 c=0.45
 v=int(input("number of students")) 
-list_1=[]
-list_2=[]
-for v in range(i):
-    ele=input()
-    l1.append(int(input("enter weight in lbs:"+str(v)+" "))) 
-    l2.append(round(list_1[v]*0.453,2))
-print("given weights in lbs:",list_1)
-print("converted weights in kgs:",list_2)
+l1=[]
+l2=[]
+for i in range(v):
+    l1.append(int(input("enter weight in lbs:"+str(i+1)+" "))) 
+    l2.append(round(l1[i]*0.453,2))
+print("given weights in lbs:",l1)
+print("converted weights in kgs:",l2)
