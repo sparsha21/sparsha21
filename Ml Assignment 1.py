@@ -26,7 +26,7 @@ print(range1)
 
 2nd Q
 dog = dict()
-student["gender"] = "MALE"
+student["gender"] = "FEMALE"
 dog["name"] = "BROWNIE"
 dog["color"] = "BLACK"
 student["age"] = "22"
@@ -36,15 +36,15 @@ dog["age"] = "9"
 print(dog)
 
 student = dict()
-student["first_name"] = "BALA"
-student["last_name"] = "BASANI"
-student["gender"] = "MALE"
+student["first_name"] = "SPARSHA"
+student["last_name"] = "ADURI"
+student["gender"] = "FEMALE"
 student["age"] = "22"
 student["hobbies"] = ["CRICKET" , "MUSIC"]
 student["achievements"] = "STATE CHAMPION"
 student["country"] = "INDIA"
 student["city"] = "PDPL"
-student["ph no"] = "+91 9247241111"
+student["ph no"] = "+91 9378762761"
 print(student)
 length1 = len(student)
 print(length1)
@@ -56,13 +56,13 @@ print(student.keys())
 print(student.values())
 
 3rd Q
-brothers = ("SUJITH", "RITHVIK", "RISHITH");
-sisters = ("KAVYA", "JANIE", "TREEZA");
+brothers = ("SUJITH", "VARSHIK", "VAMSHI");
+sisters = ("SATVIKA", "SRUTHI", "VANITHA");
 siblings = sisters + brothers;
 print(siblings);
 length1 = (siblings);
 print(length1);
-family_members = siblings + ("RAVI", "INNU");
+family_members = siblings + ("VIKAS", "KAVYA");
 print(family_members);
 
 4th Q
