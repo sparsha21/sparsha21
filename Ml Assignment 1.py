@@ -20,7 +20,7 @@ print(avg)
 raint(ages)
 a = min(ages)
 b = max(ages)
-prnge1 = b-a
+range1 = b-a
 print(range1)
 
 
