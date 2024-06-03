@@ -1,4 +1,5 @@
 1st Q
+
 def display_star_pattern():
     pattern = ["*", "* *", "* * *", "* * * *", "* * * * *", "* * * *", "* * *", "* *", "*"]
  for stars in pattern:
@@ -6,11 +7,13 @@ def display_star_pattern():
 display_star_pattern()
 
 2nd Q
+
 my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 for i in range(len(my_list)):
     if i % 2 != 0:  
         print(my_list[i])
 3rd Q
+
 x = [23, 'Python', 23.98]
 type_list = []
 for element in x:
@@ -19,6 +22,7 @@ print(x)
 print(type_list)
 
 4th Q
+
 def get_unique_items(input_list):
     unique_list = list(set(input_list))
     return unique_list
@@ -28,6 +32,7 @@ print("Sample List:", sample_list)
 print("Unique List:", unique_list
 
 5th Q
+
 def count_upper_lower(input_string):
     upper_count = 0
     lower_count = 0
